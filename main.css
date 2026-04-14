@@ -100,9 +100,8 @@ header {
 }
 
 .discount-items {
-    display: flex;
-    flex-direction: row;
-    gap: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     padding: 20px;
 }
 
