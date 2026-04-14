@@ -59,7 +59,7 @@ header {
     width: 250px;
 }
 
-.filters button {
+.filterop {
     padding: 8px 12px;
     border: none;
     border-radius: 8px;
@@ -67,10 +67,6 @@ header {
     color: #e6e8e6;
     cursor: pointer;
     transition: 0.2s;
-}
-
-.filters button:hover {
-    background: #3a6ea5;
 }
 
 .discount {
